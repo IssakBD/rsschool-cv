@@ -21,5 +21,3 @@ _I am 25 years old, and I am a former teacher of mathematics and physics, and no
 *Master degree: University of International Business - IT management and Data Science
 *PHD: Satbayev University - Telecommunication
 ##English level is Intermediate
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
