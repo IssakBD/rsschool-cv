@@ -1,7 +1,7 @@
 # Baglan Issak
 ## Contact me:
 1. * Telegram: @IssakBD
-2. * Instagram: @IssakBD
+2. * Instagram: [@IssakBD](https://www.instagram.com/issakbs)
 3. * E-mail: baglan.issak@gmail.com
 ## Short information about me:
 _I am 25 years old, and I am a former teacher of mathematics and physics, and now I work for Kazteleport as a network technology engineer. I want to join the development company, live abroad, earn decent money and be happy. Mathematical thinking. I love to learn something new for myself._
