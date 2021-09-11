@@ -1,1 +1,1 @@
-# rsschool-cv
+https://IssakBD.github.io/rsschool-cv/
