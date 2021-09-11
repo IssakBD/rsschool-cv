@@ -1,0 +1,36 @@
+body {
+    margin: 0; 
+}
+
+#cv {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: aliceblue; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#cv-container {
+    max-width: 1200px; 
+    margin: 20px auto
+}
+
+#cv-title {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#cv-contacts p a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+#footer-link svg{
+    width: 100px;
+}
