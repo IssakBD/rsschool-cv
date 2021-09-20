@@ -6,64 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div id="cv">
-
         <div id="cv-container">
-            <header>
-                <h1>CV</h1>
-            </header>
-            <main>
-                <section id="cv-title">
-                    <h2 id="name">Baglan Issak</h2>
-                    <figure id="my-photo">
-                        <img src="images/Baglan.jpg" alt="My photo" width="200">
-                        <figcaption>Junior Front End Developer</figcaption>
-                    </figure>
-                </section>
-                <div id="cv-main-body">
+            <main class='cv-main'>
+                <aside id='cv-left-side'>
+                    <header id="cv-title">
+                        <h1 id="name">Baglan Issak</h1>
+                        <figure id="my-photo">
+                            <img src="images/Baglan.jpg" alt="My photo" width="200">
+                            <figcaption>Junior Front End Developer</figcaption>
+                        </figure>
+                    </header>
                     <section id="cv-contacts">
-                        <h3>My contacts:</h3>
-                        <p>
-                            1. Telegram: @IssakBD
-                        </p>
-                        <p>
-                            2. Instagram: <a href="https://instagram.com/issakbs">@IssakBD</a>
-                        </p>
-                        <p>
-                            3. E-mail: baglan.issak@gmail.com
-                        </p>
-                    </section>
-                    <section id="cv-info-short-info">
-                        <h2>Short information about me:</h2>
-                        <p>I am 25 years old, and I am a former teacher of mathematics and physics, and now I work for
-                            Kazteleport as a network technology engineer. I want to join the development company, live
-                            abroad, earn decent money and be happy. Mathematical thinking. I love to learn something new
-                            for
-                            myself.</p>
+                        <h2>My contacts:</h2>
+                        <ul>
+                            <li>Telegram: @IssakBD</li>
+                            <li>Instagram: <a href="https://instagram.com/issakbs">@IssakBD</a></li>
+                            <li>E-mail: baglan.issak@gmail.com</li>
+                        </ul>
                     </section>
                     <section id="cv-info-skills">
                         <h2>Skills:</h2>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JS</p>
-                        <p>JQuery</p>
-                        <p>Bootstrap</p>
-                        <p>Git</p>
-                        <p>VS code,PhpStorm</p>
-                    </section>
-                    <section id="cv-info-work-experience">
-                        <h2>Work experience:</h2>
                         <ul>
-                            <li>2015-2019: Teacher of mathematics and physics for Science Tech Group</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>Git</li>
+                            <li>VS code, PhpStorm</li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <div id='cv-right-side'>
+                    <section id="cv-info-short-info">
+                        <h3>Short information about me:</h3>
+                        <p>I am 25 years old, and I am a former teacher of mathematics and physics, and now I work
+                            for
+                            Kazteleport as a network technology engineer. I want to join the development company,
+                            live
+                            abroad, earn decent money and be happy. Mathematical thinking. I love to learn something
+                            new
+                            for
+                            myself.</p>
+                    </section>
+
+                    <section id="cv-info-work-experience">
+                        <h4>Work experience:</h4>
+                        <ul>
+                            <li>2015 - 2019: Teacher of mathematics and physics for Science Tech Group</li>
                             <li>2019 - now: network engineer for Kazteleport</li>
                         </ul>
                     </section>
                     <section id="cv-info-education">
-                        <h2>Education:</h2>
+                        <h5>Education:</h5>
                         <ul>
                             <li>Bachelor: Satbayev University - Telecommunication</li>
                             <li>Master degree: University of International Business - IT management and Data Science
@@ -72,12 +74,15 @@
                         </ul>
                     </section>
                     <section id="cv-info-languages">
-                        <h2>Language:</h2>
+                        <h6>Language:</h6>
                         <ul>
                             <li>English - Intermediate</li>
                             <li>Kazakh - native</li>
                             <li>Russian - comletely</li>
                         </ul>
+                    </section>
+                    <section id="cv-info-code">
+                        <h2>Examples of My Code you can see at: <a href="https://github.com/IssakBD">GitHub</a></h2>
                     </section>
                 </div>
             </main>
@@ -224,5 +229,4 @@
         </div>
     </div>
 </body>
-
 </html>
