@@ -1,0 +1,71 @@
+@media (max-width: 900px) {
+
+h1{
+    font-size: 1em !important;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 0.9em;
+}
+
+#cv-info-short-info p, #cv-info-work-experience p, #cv-info-education li, #cv-info-languages li, #cv-info-code, #cv-contacts li, #cv-info-skills li{
+    font-size: 0.75em;
+}
+
+#my-photo img{
+    width: 100px !important;
+}
+
+#my-photo figcaption{
+    font-size: 0.8em;
+}
+}
+
+@media (max-width: 740px) {
+body{
+    font-size: 0.6em;
+}
+}
+
+@media (max-width: 600px) {
+body{
+    font-size: 0.4em;
+}
+
+#my-photo img{
+    width: 50px !important;
+}
+
+
+#footer-link svg{
+    width: 50px !important;
+} 
+
+}
+
+@media (max-width: 450px) {
+    .cv-main{
+        flex-direction: column;
+    }
+
+    #cv-right-side {
+        width: 100% !important;
+        order: 2;
+    }
+
+    body{
+        font-size: 0.2em;
+    }
+
+    #cv-left-side {
+        order: 1;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+    }
+
+    footer{
+        width: 105% !important;
+    }
+}
